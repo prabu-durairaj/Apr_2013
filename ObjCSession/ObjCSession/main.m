@@ -3,15 +3,26 @@
 #import "Book.h"
 #import "Calculator.h"
 #import "Car.h"
+#import "Admin.h"
+#import "Manager.h"
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
         
-        Calculator* calc = [Calculator new];
+        Employee* emp = [Manager new];
+        emp.name = @"Sam";
+        emp.salary = 232131;
+        [emp work];
+        
+        
+//        [Admin monitor];
+ //       Admin* admin = [[Admin alloc]init];
+        //int hrs = Admin.hours;
+        
+//        Calculator* calc = [Calculator new];
       //  int sum = [calc addNumbers:12 :1 :2];
-        int sum = [calc addNumbers:12 number2:1 number3:2];
+ //       int sum = [calc addNumbers:12 number2:1 number3:2];
 
         
         //Car* car = [Car new];

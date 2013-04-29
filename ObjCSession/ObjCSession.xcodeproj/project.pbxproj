@@ -14,6 +14,9 @@
 		715C9508172E4400002FE6E8 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9507172E4400002FE6E8 /* Book.m */; };
 		715C950B172E4545002FE6E8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C950A172E4545002FE6E8 /* Calculator.m */; };
 		715C9543172E6A6E002FE6E8 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9542172E6A6E002FE6E8 /* Car.m */; };
+		715C9566172E7C1B002FE6E8 /* Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9565172E7C1B002FE6E8 /* Admin.m */; };
+		715C9569172E7DA9002FE6E8 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9568172E7DA9002FE6E8 /* Employee.m */; };
+		715C956C172E7E03002FE6E8 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C956B172E7E03002FE6E8 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +46,12 @@
 		715C950A172E4545002FE6E8 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		715C9541172E6A6E002FE6E8 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
 		715C9542172E6A6E002FE6E8 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = ../Car.m; sourceTree = "<group>"; };
+		715C9564172E7C1B002FE6E8 /* Admin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Admin.h; sourceTree = "<group>"; };
+		715C9565172E7C1B002FE6E8 /* Admin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Admin.m; sourceTree = "<group>"; };
+		715C9567172E7DA9002FE6E8 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		715C9568172E7DA9002FE6E8 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		715C956A172E7E03002FE6E8 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		715C956B172E7E03002FE6E8 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,8 @@
 		715C94E6172E4128002FE6E8 = {
 			isa = PBXGroup;
 			children = (
+				715C9564172E7C1B002FE6E8 /* Admin.h */,
+				715C9565172E7C1B002FE6E8 /* Admin.m */,
 				715C94F7172E4128002FE6E8 /* ObjCSession */,
 				715C94F4172E4128002FE6E8 /* Frameworks */,
 				715C94F2172E4128002FE6E8 /* Products */,
@@ -96,6 +107,10 @@
 				715C9507172E4400002FE6E8 /* Book.m */,
 				715C9509172E4545002FE6E8 /* Calculator.h */,
 				715C950A172E4545002FE6E8 /* Calculator.m */,
+				715C9567172E7DA9002FE6E8 /* Employee.h */,
+				715C9568172E7DA9002FE6E8 /* Employee.m */,
+				715C956A172E7E03002FE6E8 /* Manager.h */,
+				715C956B172E7E03002FE6E8 /* Manager.m */,
 			);
 			path = ObjCSession;
 			sourceTree = "<group>";
@@ -164,6 +179,9 @@
 				715C9508172E4400002FE6E8 /* Book.m in Sources */,
 				715C950B172E4545002FE6E8 /* Calculator.m in Sources */,
 				715C9543172E6A6E002FE6E8 /* Car.m in Sources */,
+				715C9566172E7C1B002FE6E8 /* Admin.m in Sources */,
+				715C9569172E7DA9002FE6E8 /* Employee.m in Sources */,
+				715C956C172E7E03002FE6E8 /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
