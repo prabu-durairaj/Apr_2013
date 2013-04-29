@@ -12,6 +12,7 @@
 		715C94FD172E4128002FE6E8 /* ObjCSession.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 715C94FC172E4128002FE6E8 /* ObjCSession.1 */; };
 		715C9505172E41AC002FE6E8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9504172E41AC002FE6E8 /* Person.m */; };
 		715C9508172E4400002FE6E8 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9507172E4400002FE6E8 /* Book.m */; };
+		715C950B172E4545002FE6E8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C950A172E4545002FE6E8 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		715C9504172E41AC002FE6E8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		715C9506172E4400002FE6E8 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		715C9507172E4400002FE6E8 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		715C9509172E4545002FE6E8 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		715C950A172E4545002FE6E8 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				715C94FA172E4128002FE6E8 /* Supporting Files */,
 				715C9506172E4400002FE6E8 /* Book.h */,
 				715C9507172E4400002FE6E8 /* Book.m */,
+				715C9509172E4545002FE6E8 /* Calculator.h */,
+				715C950A172E4545002FE6E8 /* Calculator.m */,
 			);
 			path = ObjCSession;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				715C94F9172E4128002FE6E8 /* main.m in Sources */,
 				715C9505172E41AC002FE6E8 /* Person.m in Sources */,
 				715C9508172E4400002FE6E8 /* Book.m in Sources */,
+				715C950B172E4545002FE6E8 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
