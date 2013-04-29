@@ -1,5 +1,5 @@
 Create a command line application called Lab02. No UI required.
-Create a class Account with a accountNumber(string) and balance(double). Account class has 2 functions 
+Create a class Account with an accountNumber(string) and balance(double). Account class has 2 functions 
 deposit(double amount,mobileNumber)
 withdraw(double amount)
 
