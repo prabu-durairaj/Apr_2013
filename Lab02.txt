@@ -1,0 +1,20 @@
+Create a command line application called Lab02. No UI required.
+Create a class Account with a accountNumber(string) and balance(double). Account class has 2 functions 
+deposit(double amount,mobileNumber)
+withdraw(double amount)
+
+Account object should be initialized with the account number and an initial balance of Rs.1000
+
+Create an Account object in main.m
+deposit Rs.100
+withdraw Rs.500
+Print the balance.
+
+Deposit function should always be called with an amount and the mobile number of the person who deposits. Implement deposit with named parameters.
+
+Withdraw function should not allow you to withdraw if the balance is less than the amount. 
+
+You should throw an exception if the balance is less than the amount.
+
+
+
