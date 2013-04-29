@@ -6,10 +6,14 @@
 #import "Admin.h"
 #import "Manager.h"
 #import "Circle.h"
+#import "Company.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
+        Company* cm = [Company new];
+        //cm->name = @"SM";
+        
         Circle* c1 = [Circle new];
         [c1 draw];
         
