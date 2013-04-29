@@ -8,6 +8,10 @@
 @synthesize messageLabel;
 @synthesize attemptsLabel;
 
+-(IBAction)hideKeyboard{
+    [numberTextField resignFirstResponder];
+}
+
 -(IBAction)guessButtonTouch{
     int guess = [numberTextField.text intValue];
     [game play:guess];

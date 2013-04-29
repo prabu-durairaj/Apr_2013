@@ -9,6 +9,8 @@
 @property IBOutlet UILabel* messageLabel;
 @property IBOutlet UILabel* attemptsLabel;
 
+-(IBAction)hideKeyboard;
 -(IBAction)guessButtonTouch;
+
 
 @end

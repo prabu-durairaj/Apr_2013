@@ -5,7 +5,7 @@
 @property int target;
 @property NSString* message;
 @property int attempts;
-@property bool gameOver;
+@property Boolean gameOver;
 
 -(void)initialize;
 -(void)play : (int)guess;
