@@ -13,6 +13,7 @@
 		715C9505172E41AC002FE6E8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9504172E41AC002FE6E8 /* Person.m */; };
 		715C9508172E4400002FE6E8 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9507172E4400002FE6E8 /* Book.m */; };
 		715C950B172E4545002FE6E8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C950A172E4545002FE6E8 /* Calculator.m */; };
+		715C9543172E6A6E002FE6E8 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9542172E6A6E002FE6E8 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		715C9507172E4400002FE6E8 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		715C9509172E4545002FE6E8 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		715C950A172E4545002FE6E8 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		715C9541172E6A6E002FE6E8 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
+		715C9542172E6A6E002FE6E8 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = ../Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		715C94F7172E4128002FE6E8 /* ObjCSession */ = {
 			isa = PBXGroup;
 			children = (
+				715C9541172E6A6E002FE6E8 /* Car.h */,
+				715C9542172E6A6E002FE6E8 /* Car.m */,
 				715C94F8172E4128002FE6E8 /* main.m */,
 				715C94FC172E4128002FE6E8 /* ObjCSession.1 */,
 				715C9503172E41AC002FE6E8 /* Person.h */,
@@ -158,6 +163,7 @@
 				715C9505172E41AC002FE6E8 /* Person.m in Sources */,
 				715C9508172E4400002FE6E8 /* Book.m in Sources */,
 				715C950B172E4545002FE6E8 /* Calculator.m in Sources */,
+				715C9543172E6A6E002FE6E8 /* Car.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
