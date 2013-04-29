@@ -17,6 +17,7 @@
 		715C9566172E7C1B002FE6E8 /* Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9565172E7C1B002FE6E8 /* Admin.m */; };
 		715C9569172E7DA9002FE6E8 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C9568172E7DA9002FE6E8 /* Employee.m */; };
 		715C956C172E7E03002FE6E8 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C956B172E7E03002FE6E8 /* Manager.m */; };
+		715C9570172E90B2002FE6E8 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C956F172E90B2002FE6E8 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,10 @@
 		715C9568172E7DA9002FE6E8 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		715C956A172E7E03002FE6E8 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		715C956B172E7E03002FE6E8 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		715C956D172E9062002FE6E8 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		715C956E172E90B2002FE6E8 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		715C956F172E90B2002FE6E8 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		715C9571172E919B002FE6E8 /* GeometricItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometricItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,10 @@
 				715C9568172E7DA9002FE6E8 /* Employee.m */,
 				715C956A172E7E03002FE6E8 /* Manager.h */,
 				715C956B172E7E03002FE6E8 /* Manager.m */,
+				715C956D172E9062002FE6E8 /* Shape.h */,
+				715C956E172E90B2002FE6E8 /* Circle.h */,
+				715C956F172E90B2002FE6E8 /* Circle.m */,
+				715C9571172E919B002FE6E8 /* GeometricItem.h */,
 			);
 			path = ObjCSession;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 				715C9566172E7C1B002FE6E8 /* Admin.m in Sources */,
 				715C9569172E7DA9002FE6E8 /* Employee.m in Sources */,
 				715C956C172E7E03002FE6E8 /* Manager.m in Sources */,
+				715C9570172E90B2002FE6E8 /* Circle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
