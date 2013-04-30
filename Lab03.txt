@@ -1,0 +1,69 @@
+Create a SingleViewApp in Xcode. You can call it 'Mathematics'.
+Develop the application as given below.
+You will start with screen 1.
+
+****************************************************
+Screen 1:
+
+A login page with username and password text boxes and a Login button.
+To keep it simple, the username and password should be equal to "admin" for successful login. Show an error message if login fails. If login is successful show screen 2
+
+______________________
+
+Username ___________
+Password ___________
+
+[Login]
+Invalid Credentials <Error message>
+______________________
+
+
+****************************************************
+Screen 2:
+
+This screen will show simple math questions for users to play.
+
+_____________
+
+1 + 1 =  ?
+
+Ans: _______ 
+
+   [Next] clicking on next button will show the next question.
+_____________
+
+2 * 5 =  ?
+
+Ans: ________  
+
+   [Next]
+_______________
+
+12 - 5 =  ?
+
+Ans: ________ 
+
+   [Next]
+_______________
+
+You can show 3 questions to keep the app simple. After clicking next of the last question you show screen 3.
+
+****************************************************
+Screen: 3
+
+You will display the summary of the quiz.
+
+___________________________________
+You got 2 out of 3.
+
+Summary
+
+1 + 1 = 2 [Correct]
+2 * 5 = 11 [Incorrect. It's 10]
+12 - 5 = 7 [Correct]
+
+[Play Again] clicking this will take you to screen 2.
+___________________________________
+
+You can display the summary in a scroll view or text view box (disable it to prevent editing the text)
+
