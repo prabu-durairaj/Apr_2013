@@ -8,7 +8,7 @@
     UIButton* btn = sender;
     UITableViewCell* cell = (UITableViewCell*)[btn superview];
     
-    UIAlertView* alertView = [[UIAlertView alloc]initWithTitle:cell.textLabel.text message:@"Hi" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    UIAlertView* alertView = [[UIAlertView alloc]initWithTitle:cell.textLabel.text message:@"Hi" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"A",@"B",nil];
     [alertView show];
     
 //    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:cell.textLabel.text delegate:self cancelButtonTitle:@"OK" destructiveButtonTitle:nil otherButtonTitles:nil];
