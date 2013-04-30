@@ -1,8 +1,12 @@
 #import "ViewController.h"
-
+#import "Person.h"
 @implementation ViewController
 @synthesize theatres;
-
+-(void)dummy{
+    Person* p1 = [Person new];
+    p1->name = @"Ram";
+    
+}
 
 -(IBAction)clickButton2Tapped:(id)sender{
     UIButton* btn = sender;
