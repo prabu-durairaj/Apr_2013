@@ -7,9 +7,13 @@
 -(IBAction)clickButton2Tapped:(id)sender{
     UIButton* btn = sender;
     UITableViewCell* cell = (UITableViewCell*)[btn superview];
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:cell.textLabel.text delegate:self cancelButtonTitle:@"OK" destructiveButtonTitle:nil otherButtonTitles:nil];
-    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
-    [actionSheet showInView:self.view];
+    
+    UIAlertView* alertView = [[UIAlertView alloc]initWithTitle:cell.textLabel.text message:@"Hi" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
+    
+//    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:cell.textLabel.text delegate:self cancelButtonTitle:@"OK" destructiveButtonTitle:nil otherButtonTitles:nil];
+//    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
+//    [actionSheet showInView:self.view];
 }
 
 -(IBAction)clickButtonTapped:(id)sender{
