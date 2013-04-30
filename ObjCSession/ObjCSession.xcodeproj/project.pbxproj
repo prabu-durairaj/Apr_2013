@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713E88A9172F9B3B00CDA690 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E88A8172F9B3B00CDA690 /* Dog.m */; };
+		713E88AD172F9B7400CDA690 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E88AC172F9B7400CDA690 /* Owner.m */; };
 		715C94F6172E4128002FE6E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715C94F5172E4128002FE6E8 /* Foundation.framework */; };
 		715C94F9172E4128002FE6E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C94F8172E4128002FE6E8 /* main.m */; };
 		715C94FD172E4128002FE6E8 /* ObjCSession.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 715C94FC172E4128002FE6E8 /* ObjCSession.1 */; };
@@ -35,6 +37,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		713E88A7172F9B3B00CDA690 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		713E88A8172F9B3B00CDA690 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		713E88AB172F9B7400CDA690 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		713E88AC172F9B7400CDA690 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+		713E88AE172F9C6300CDA690 /* Doggy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doggy.h; sourceTree = "<group>"; };
 		715C94F1172E4128002FE6E8 /* ObjCSession */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCSession; sourceTree = BUILT_PRODUCTS_DIR; };
 		715C94F5172E4128002FE6E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		715C94F8172E4128002FE6E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,6 +132,11 @@
 				715C9571172E919B002FE6E8 /* GeometricItem.h */,
 				715C9572172E934C002FE6E8 /* Company.h */,
 				715C9573172E934C002FE6E8 /* Company.m */,
+				713E88A7172F9B3B00CDA690 /* Dog.h */,
+				713E88A8172F9B3B00CDA690 /* Dog.m */,
+				713E88AB172F9B7400CDA690 /* Owner.h */,
+				713E88AC172F9B7400CDA690 /* Owner.m */,
+				713E88AE172F9C6300CDA690 /* Doggy.h */,
 			);
 			path = ObjCSession;
 			sourceTree = "<group>";
@@ -198,6 +210,8 @@
 				715C956C172E7E03002FE6E8 /* Manager.m in Sources */,
 				715C9570172E90B2002FE6E8 /* Circle.m in Sources */,
 				715C9574172E934C002FE6E8 /* Company.m in Sources */,
+				713E88A9172F9B3B00CDA690 /* Dog.m in Sources */,
+				713E88AD172F9B7400CDA690 /* Owner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +308,7 @@
 				715C9502172E4128002FE6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

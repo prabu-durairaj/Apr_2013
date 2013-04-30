@@ -7,25 +7,33 @@
 #import "Manager.h"
 #import "Circle.h"
 #import "Company.h"
+#import "Owner.h"
+#import "Dog.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        Company* cm = [Company new];
-        //cm->name = @"SM";
         
-        Circle* c1 = [Circle new];
-        [c1 draw];
+        Dog* jimmy = [Dog new];
+        Owner* sam = [Owner new];
+        sam.dog = jimmy;
+        [sam walk];
         
-        id<Shape> c2 = [Circle new]; //id is equivalent of Object in Java
-        [c2 draw];
-        
-        id<GeometricItem> g1 = [Circle new];
-
-        if([g1 conformsToProtocol:@protocol(GeometricItem)]){
-            //do something
-        }
-        
+//        Company* cm = [Company new];
+//        //cm->name = @"SM";
+//        
+//        Circle* c1 = [Circle new];
+//        [c1 draw];
+//        
+//        id<Shape> c2 = [Circle new]; //id is equivalent of Object in Java
+//        [c2 draw];
+//        
+//        id<GeometricItem> g1 = [Circle new];
+//
+//        if([g1 conformsToProtocol:@protocol(GeometricItem)]){
+//            //do something
+//        }
+//        
         
         
 //        
