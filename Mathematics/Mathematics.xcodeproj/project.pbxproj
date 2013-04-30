@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713E88FF172FB8BD00CDA690 /* LoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E88FE172FB8BD00CDA690 /* LoginHelper.m */; };
+		71F67F5816CA4709001E9E09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67F5716CA4709001E9E09 /* UIKit.framework */; };
+		71F67F5A16CA4709001E9E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67F5916CA4709001E9E09 /* Foundation.framework */; };
+		71F67F5C16CA4709001E9E09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67F5B16CA4709001E9E09 /* CoreGraphics.framework */; };
+		71F67F6216CA4709001E9E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F6016CA4709001E9E09 /* InfoPlist.strings */; };
+		71F67F6416CA4709001E9E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F6316CA4709001E9E09 /* main.m */; };
+		71F67F6816CA4709001E9E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F6716CA4709001E9E09 /* AppDelegate.m */; };
+		71F67F6A16CA4709001E9E09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F6916CA4709001E9E09 /* Default.png */; };
+		71F67F6C16CA4709001E9E09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F6B16CA4709001E9E09 /* Default@2x.png */; };
+		71F67F6E16CA4709001E9E09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F6D16CA4709001E9E09 /* Default-568h@2x.png */; };
+		71F67F7116CA4709001E9E09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F7016CA4709001E9E09 /* ViewController.m */; };
+		71F67F7416CA4709001E9E09 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F7216CA4709001E9E09 /* ViewController.xib */; };
+		71F67F7C16CA4709001E9E09 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67F7B16CA4709001E9E09 /* SenTestingKit.framework */; };
+		71F67F7D16CA4709001E9E09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67F5716CA4709001E9E09 /* UIKit.framework */; };
+		71F67F7E16CA4709001E9E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67F5916CA4709001E9E09 /* Foundation.framework */; };
+		71F67F8616CA4709001E9E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F8416CA4709001E9E09 /* InfoPlist.strings */; };
+		71F67F8916CA4709001E9E09 /* MathematicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F8816CA4709001E9E09 /* MathematicsTests.m */; };
+		71F67F9516CA4737001E9E09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F9316CA4737001E9E09 /* LoginViewController.m */; };
+		71F67F9616CA4737001E9E09 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F9416CA4737001E9E09 /* LoginViewController.xib */; };
+		71F67F9A16CA4745001E9E09 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F9816CA4745001E9E09 /* QuizViewController.m */; };
+		71F67F9B16CA4745001E9E09 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F9916CA4745001E9E09 /* QuizViewController.xib */; };
+		71F67F9F16CA4752001E9E09 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67F9D16CA4752001E9E09 /* SummaryViewController.m */; };
+		71F67FA016CA4752001E9E09 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F67F9E16CA4752001E9E09 /* SummaryViewController.xib */; };
+		71F67FA416CA4AD4001E9E09 /* MathQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67FA316CA4AD4001E9E09 /* MathQuestion.m */; };
+		71F67FA716CA4F09001E9E09 /* MathQuestionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67FA616CA4F09001E9E09 /* MathQuestionStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F67F7F16CA4709001E9E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F67F4A16CA4709001E9E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F67F5216CA4709001E9E09;
+			remoteInfo = Mathematics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		713E88FD172FB8BD00CDA690 /* LoginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
+		713E88FE172FB8BD00CDA690 /* LoginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHelper.m; sourceTree = "<group>"; };
+		71F67F5316CA4709001E9E09 /* Mathematics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathematics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F67F5716CA4709001E9E09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71F67F5916CA4709001E9E09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71F67F5B16CA4709001E9E09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71F67F5F16CA4709001E9E09 /* Mathematics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mathematics-Info.plist"; sourceTree = "<group>"; };
+		71F67F6116CA4709001E9E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71F67F6316CA4709001E9E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71F67F6516CA4709001E9E09 /* Mathematics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mathematics-Prefix.pch"; sourceTree = "<group>"; };
+		71F67F6616CA4709001E9E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71F67F6716CA4709001E9E09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71F67F6916CA4709001E9E09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		71F67F6B16CA4709001E9E09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		71F67F6D16CA4709001E9E09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		71F67F6F16CA4709001E9E09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71F67F7016CA4709001E9E09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71F67F7316CA4709001E9E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		71F67F7A16CA4709001E9E09 /* MathematicsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathematicsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F67F7B16CA4709001E9E09 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		71F67F8316CA4709001E9E09 /* MathematicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathematicsTests-Info.plist"; sourceTree = "<group>"; };
+		71F67F8516CA4709001E9E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71F67F8716CA4709001E9E09 /* MathematicsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathematicsTests.h; sourceTree = "<group>"; };
+		71F67F8816CA4709001E9E09 /* MathematicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathematicsTests.m; sourceTree = "<group>"; };
+		71F67F9216CA4737001E9E09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		71F67F9316CA4737001E9E09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		71F67F9416CA4737001E9E09 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		71F67F9716CA4745001E9E09 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		71F67F9816CA4745001E9E09 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		71F67F9916CA4745001E9E09 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
+		71F67F9C16CA4752001E9E09 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		71F67F9D16CA4752001E9E09 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		71F67F9E16CA4752001E9E09 /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
+		71F67FA116CA48D5001E9E09 /* NavigationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationDelegate.h; sourceTree = "<group>"; };
+		71F67FA216CA4AD4001E9E09 /* MathQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathQuestion.h; sourceTree = "<group>"; };
+		71F67FA316CA4AD4001E9E09 /* MathQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathQuestion.m; sourceTree = "<group>"; };
+		71F67FA516CA4F09001E9E09 /* MathQuestionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathQuestionStore.h; sourceTree = "<group>"; };
+		71F67FA616CA4F09001E9E09 /* MathQuestionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathQuestionStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F67F5016CA4709001E9E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F67F5816CA4709001E9E09 /* UIKit.framework in Frameworks */,
+				71F67F5A16CA4709001E9E09 /* Foundation.framework in Frameworks */,
+				71F67F5C16CA4709001E9E09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F67F7616CA4709001E9E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F67F7C16CA4709001E9E09 /* SenTestingKit.framework in Frameworks */,
+				71F67F7D16CA4709001E9E09 /* UIKit.framework in Frameworks */,
+				71F67F7E16CA4709001E9E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F67F4816CA4709001E9E09 = {
+			isa = PBXGroup;
+			children = (
+				71F67F5D16CA4709001E9E09 /* Mathematics */,
+				71F67F8116CA4709001E9E09 /* MathematicsTests */,
+				71F67F5616CA4709001E9E09 /* Frameworks */,
+				71F67F5416CA4709001E9E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F67F5416CA4709001E9E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F67F5316CA4709001E9E09 /* Mathematics.app */,
+				71F67F7A16CA4709001E9E09 /* MathematicsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F67F5616CA4709001E9E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F67F5716CA4709001E9E09 /* UIKit.framework */,
+				71F67F5916CA4709001E9E09 /* Foundation.framework */,
+				71F67F5B16CA4709001E9E09 /* CoreGraphics.framework */,
+				71F67F7B16CA4709001E9E09 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71F67F5D16CA4709001E9E09 /* Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				71F67F6616CA4709001E9E09 /* AppDelegate.h */,
+				71F67F6716CA4709001E9E09 /* AppDelegate.m */,
+				71F67F6F16CA4709001E9E09 /* ViewController.h */,
+				71F67F7016CA4709001E9E09 /* ViewController.m */,
+				71F67F7216CA4709001E9E09 /* ViewController.xib */,
+				71F67F5E16CA4709001E9E09 /* Supporting Files */,
+				71F67F9216CA4737001E9E09 /* LoginViewController.h */,
+				71F67F9316CA4737001E9E09 /* LoginViewController.m */,
+				71F67F9416CA4737001E9E09 /* LoginViewController.xib */,
+				71F67F9716CA4745001E9E09 /* QuizViewController.h */,
+				71F67F9816CA4745001E9E09 /* QuizViewController.m */,
+				71F67F9916CA4745001E9E09 /* QuizViewController.xib */,
+				71F67F9C16CA4752001E9E09 /* SummaryViewController.h */,
+				71F67F9D16CA4752001E9E09 /* SummaryViewController.m */,
+				71F67F9E16CA4752001E9E09 /* SummaryViewController.xib */,
+				71F67FA116CA48D5001E9E09 /* NavigationDelegate.h */,
+				71F67FA216CA4AD4001E9E09 /* MathQuestion.h */,
+				71F67FA316CA4AD4001E9E09 /* MathQuestion.m */,
+				71F67FA516CA4F09001E9E09 /* MathQuestionStore.h */,
+				71F67FA616CA4F09001E9E09 /* MathQuestionStore.m */,
+				713E88FD172FB8BD00CDA690 /* LoginHelper.h */,
+				713E88FE172FB8BD00CDA690 /* LoginHelper.m */,
+			);
+			path = Mathematics;
+			sourceTree = "<group>";
+		};
+		71F67F5E16CA4709001E9E09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F67F5F16CA4709001E9E09 /* Mathematics-Info.plist */,
+				71F67F6016CA4709001E9E09 /* InfoPlist.strings */,
+				71F67F6316CA4709001E9E09 /* main.m */,
+				71F67F6516CA4709001E9E09 /* Mathematics-Prefix.pch */,
+				71F67F6916CA4709001E9E09 /* Default.png */,
+				71F67F6B16CA4709001E9E09 /* Default@2x.png */,
+				71F67F6D16CA4709001E9E09 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71F67F8116CA4709001E9E09 /* MathematicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				71F67F8716CA4709001E9E09 /* MathematicsTests.h */,
+				71F67F8816CA4709001E9E09 /* MathematicsTests.m */,
+				71F67F8216CA4709001E9E09 /* Supporting Files */,
+			);
+			path = MathematicsTests;
+			sourceTree = "<group>";
+		};
+		71F67F8216CA4709001E9E09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F67F8316CA4709001E9E09 /* MathematicsTests-Info.plist */,
+				71F67F8416CA4709001E9E09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F67F5216CA4709001E9E09 /* Mathematics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F67F8C16CA4709001E9E09 /* Build configuration list for PBXNativeTarget "Mathematics" */;
+			buildPhases = (
+				71F67F4F16CA4709001E9E09 /* Sources */,
+				71F67F5016CA4709001E9E09 /* Frameworks */,
+				71F67F5116CA4709001E9E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mathematics;
+			productName = Mathematics;
+			productReference = 71F67F5316CA4709001E9E09 /* Mathematics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71F67F7916CA4709001E9E09 /* MathematicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F67F8F16CA4709001E9E09 /* Build configuration list for PBXNativeTarget "MathematicsTests" */;
+			buildPhases = (
+				71F67F7516CA4709001E9E09 /* Sources */,
+				71F67F7616CA4709001E9E09 /* Frameworks */,
+				71F67F7716CA4709001E9E09 /* Resources */,
+				71F67F7816CA4709001E9E09 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F67F8016CA4709001E9E09 /* PBXTargetDependency */,
+			);
+			name = MathematicsTests;
+			productName = MathematicsTests;
+			productReference = 71F67F7A16CA4709001E9E09 /* MathematicsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F67F4A16CA4709001E9E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Prabhu S";
+			};
+			buildConfigurationList = 71F67F4D16CA4709001E9E09 /* Build configuration list for PBXProject "Mathematics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71F67F4816CA4709001E9E09;
+			productRefGroup = 71F67F5416CA4709001E9E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F67F5216CA4709001E9E09 /* Mathematics */,
+				71F67F7916CA4709001E9E09 /* MathematicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F67F5116CA4709001E9E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F67F6216CA4709001E9E09 /* InfoPlist.strings in Resources */,
+				71F67F6A16CA4709001E9E09 /* Default.png in Resources */,
+				71F67F6C16CA4709001E9E09 /* Default@2x.png in Resources */,
+				71F67F6E16CA4709001E9E09 /* Default-568h@2x.png in Resources */,
+				71F67F7416CA4709001E9E09 /* ViewController.xib in Resources */,
+				71F67F9616CA4737001E9E09 /* LoginViewController.xib in Resources */,
+				71F67F9B16CA4745001E9E09 /* QuizViewController.xib in Resources */,
+				71F67FA016CA4752001E9E09 /* SummaryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F67F7716CA4709001E9E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F67F8616CA4709001E9E09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71F67F7816CA4709001E9E09 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F67F4F16CA4709001E9E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F67F6416CA4709001E9E09 /* main.m in Sources */,
+				71F67F6816CA4709001E9E09 /* AppDelegate.m in Sources */,
+				71F67F7116CA4709001E9E09 /* ViewController.m in Sources */,
+				71F67F9516CA4737001E9E09 /* LoginViewController.m in Sources */,
+				71F67F9A16CA4745001E9E09 /* QuizViewController.m in Sources */,
+				71F67F9F16CA4752001E9E09 /* SummaryViewController.m in Sources */,
+				71F67FA416CA4AD4001E9E09 /* MathQuestion.m in Sources */,
+				71F67FA716CA4F09001E9E09 /* MathQuestionStore.m in Sources */,
+				713E88FF172FB8BD00CDA690 /* LoginHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F67F7516CA4709001E9E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F67F8916CA4709001E9E09 /* MathematicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F67F8016CA4709001E9E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F67F5216CA4709001E9E09 /* Mathematics */;
+			targetProxy = 71F67F7F16CA4709001E9E09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71F67F6016CA4709001E9E09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F67F6116CA4709001E9E09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71F67F7216CA4709001E9E09 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F67F7316CA4709001E9E09 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		71F67F8416CA4709001E9E09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F67F8516CA4709001E9E09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F67F8A16CA4709001E9E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71F67F8B16CA4709001E9E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F67F8D16CA4709001E9E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematics/Mathematics-Prefix.pch";
+				INFOPLIST_FILE = "Mathematics/Mathematics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71F67F8E16CA4709001E9E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematics/Mathematics-Prefix.pch";
+				INFOPLIST_FILE = "Mathematics/Mathematics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71F67F9016CA4709001E9E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mathematics.app/Mathematics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematics/Mathematics-Prefix.pch";
+				INFOPLIST_FILE = "MathematicsTests/MathematicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		71F67F9116CA4709001E9E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mathematics.app/Mathematics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematics/Mathematics-Prefix.pch";
+				INFOPLIST_FILE = "MathematicsTests/MathematicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F67F4D16CA4709001E9E09 /* Build configuration list for PBXProject "Mathematics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F67F8A16CA4709001E9E09 /* Debug */,
+				71F67F8B16CA4709001E9E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F67F8C16CA4709001E9E09 /* Build configuration list for PBXNativeTarget "Mathematics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F67F8D16CA4709001E9E09 /* Debug */,
+				71F67F8E16CA4709001E9E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F67F8F16CA4709001E9E09 /* Build configuration list for PBXNativeTarget "MathematicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F67F9016CA4709001E9E09 /* Debug */,
+				71F67F9116CA4709001E9E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F67F4A16CA4709001E9E09 /* Project object */;
+}
